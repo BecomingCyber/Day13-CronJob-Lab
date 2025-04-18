@@ -2,7 +2,7 @@
 
 ![Last Commit](https://img.shields.io/github/last-commit/BecomingCyber/Day13-CronJob-Lab?style=for-the-badge)
 ![Repo Size](https://img.shields.io/github/repo-size/BecomingCyber/Day13-CronJob-Lab?style=for-the-badge)
-![License](https://img.shields.io/github/license/BecomingCyber/Day13-CronJob-Lab?style=for-the-badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 ![Stars](https://img.shields.io/github/stars/BecomingCyber/Day13-CronJob-Lab?style=for-the-badge)
 ![Forks](https://img.shields.io/github/forks/BecomingCyber/Day13-CronJob-Lab?style=for-the-badge)
 [![View Portfolio](https://img.shields.io/badge/Portfolio-BecomingCyber-blueviolet?style=for-the-badge&logo=github)](https://github.com/BecomingCyber)
@@ -93,4 +93,4 @@ sudo systemctl restart cron
 - ✔ Documented incident with evidence
 
 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/BecomingCyber/Day13-CronJob-Lab.git).
