@@ -1,0 +1,10 @@
+# Snippet from /var/log/syslog showing execution of malicious cron job
+
+Apr 18 15:42:01 kali CRON[22111]: (kali) CMD (/tmp/malicious.sh)
+Apr 18 15:43:01 kali CRON[22188]: (kali) CMD (/tmp/malicious.sh)
+Apr 18 15:44:01 kali CRON[22255]: (kali) CMD (/tmp/malicious.sh)
+Apr 18 15:45:01 kali CRON[22333]: (kali) CMD (/tmp/malicious.sh)
+
+# Observations:
+- Cron job ran successfully every minute
+- Matches user crontab schedule

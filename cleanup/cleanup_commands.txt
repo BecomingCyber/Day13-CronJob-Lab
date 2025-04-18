@@ -1,0 +1,17 @@
+# 🚨 Cleanup Actions for Malicious Cron Job
+
+# Step 1: View existing cron jobs
+crontab -l
+
+# Step 2: Remove the malicious job
+crontab -l | grep -v "malicious.sh" | crontab -
+
+# Step 3: Delete the malicious script and its output log
+rm -f /tmp/malicious.sh /tmp/.cron.log
+
+# Step 4: Restart the cron service
+sudo systemctl restart cron
+
+# Step 5: Confirm cleanup
+crontab -l
+ls -la /tmp/malicious.sh /tmp/.cron.log

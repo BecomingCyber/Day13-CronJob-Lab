@@ -1,0 +1,25 @@
+# 🔎 Cron Job Detection - Findings Summary
+
+Date/Time of Detection: 2025-04-18 15:42
+
+## Detected via User Crontab:
+Command:
+crontab -l
+
+Output:
+* * * * * /tmp/malicious.sh
+
+## Search of Cron Directories:
+Command:
+grep -r "/tmp/" /etc/cron* /var/spool/cron/crontabs
+
+Finding:
+Match found in user crontab referencing /tmp/malicious.sh
+
+## Script Behavior:
+Script Path: /tmp/malicious.sh
+Command Output: echo "Ping from attacker server" >> /tmp/.cron.log
+
+## Execution Evidence:
+Log File: /tmp/.cron.log
+Confirmed multiple entries written every minute.

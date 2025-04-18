@@ -4,7 +4,9 @@
 ![Repo Size](https://img.shields.io/github/repo-size/BecomingCyber/Day13-CronJob-Lab?style=for-the-badge)
 ![License](https://img.shields.io/github/license/BecomingCyber/Day13-CronJob-Lab?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/BecomingCyber/Day13-CronJob-Lab?style=for-the-badge)
-![GitHub Pages](https://img.shields.io/badge/View%20Live-GitHub%20Pages-blue?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/BecomingCyber/Day13-CronJob-Lab?style=for-the-badge)
+[![View Portfolio](https://img.shields.io/badge/Portfolio-BecomingCyber-blueviolet?style=for-the-badge&logo=github)](https://github.com/BecomingCyber)
+
 
 
 ## 🎯 Objective
@@ -89,3 +91,6 @@ sudo systemctl restart cron
 - ✔ Detected and analyzed script behavior
 - ✔ Cleaned system and validated recovery
 - ✔ Documented incident with evidence
+
+📜 License
+This project is licensed under the MIT License.
