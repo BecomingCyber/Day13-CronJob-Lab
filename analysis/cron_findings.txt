@@ -23,3 +23,14 @@ Command Output: echo "Ping from attacker server" >> /tmp/.cron.log
 ## Execution Evidence:
 Log File: /tmp/.cron.log
 Confirmed multiple entries written every minute.
+
+## Cleanup
+
+The malicious cron job was removed from the user's crontab.
+The simulated malicious script /tmp/malicious.sh was deleted.
+The associated cron log evidence was reviewed and preserved before cleanup.
+
+## Verification
+
+The crontab was reviewed after remediation to verify that the malicious scheduled task was no longer present.
+The cron service was restarted and the system was checked to confirm that the simulated malicious activity no longer executed.
